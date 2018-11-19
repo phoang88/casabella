@@ -1,0 +1,69 @@
+
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~@angular/material/theming';
+@import url('//fonts.googleapis.com/icon?family=Material+Icons');
+
+@include mat-core();
+$brown: (
+    50 : #eeeae5,
+    100 : #d5cabe,
+    200 : #b9a693,
+    300 : #9d8267,
+    400 : #886847,
+    500 : #734d26,
+    600 : #6b4622,
+    700 : #603d1c,
+    800 : #563417,
+    900 : #43250d,
+    A100 : #ffaf7c,
+    A200 : #ff9049,
+    A400 : #ff7116,
+    A700 : #fc6200,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+
+$primary: mat-palette($brown, 500);
+$accent:  mat-palette($mat-lime, 500, A200, A400);
+$warn:    mat-palette($mat-red, 500);
+
+$config: mat-typography-config();
+
+
+$theme: mat-light-theme($primary, $accent, $warn);
+
+@include angular-material-theme($theme);
+
+body {
+  font-family: mat-font-family($config);
+  font-weight: normal;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
+.my-primary {
+    background-color: #734d26
+}
+
+.my-text-secondary {
+    color: #e6ac00;
+    stop-color: #734d26
+}
