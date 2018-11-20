@@ -8,12 +8,16 @@ import { AppComponent } from './app.component';
 import {MatTabsModule, MatIconModule} from '@angular/material';
 import { MenuComponent } from './menu/menu.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
