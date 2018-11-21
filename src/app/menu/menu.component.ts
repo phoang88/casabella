@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
+  links = [
+    {label: 'Home', path: '/home'}, 
+    {label: 'Serivces', path: '/services'},
+    {label: 'Policies', path: '/policies'},
+  ]
+  activeLink = this.links[0].label;
 
   constructor() { }
 

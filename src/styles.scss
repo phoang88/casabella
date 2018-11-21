@@ -38,9 +38,41 @@ $brown: (
     )
 );
 
+$gold: (
+    50 : #fcf5e0,
+    100 : #f8e6b3,
+    200 : #f3d680,
+    300 : #eec54d,
+    400 : #eab826,
+    500 : #e6ac00,
+    600 : #e3a500,
+    700 : #df9b00,
+    800 : #db9200,
+    900 : #d58200,
+    A100 : #fffefc,
+    A200 : #ffe7c9,
+    A400 : #ffd196,
+    A700 : #ffc67d,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
 
 $primary: mat-palette($brown, 500);
-$accent:  mat-palette($mat-lime, 500, A200, A400);
+$accent:  mat-palette($gold, 500);
 $warn:    mat-palette($mat-red, 500);
 
 $config: mat-typography-config();
@@ -62,7 +94,7 @@ h1, h2, h3, h4 {
     background-color: #734d26
 }
 
-.my-text-secondary {
+body {
     color: #e6ac00;
     stop-color: #734d26
 }
