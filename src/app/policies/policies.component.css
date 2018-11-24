@@ -1,3 +1,10 @@
 ul {
     list-style-type: disc;
 }
+
+mat-card{
+    background-size: cover;
+    max-width: 800px;
+    color: #e6ac00;
+    margin: auto;
+}

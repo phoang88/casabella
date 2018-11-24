@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-menu',
@@ -11,11 +12,19 @@ export class MenuComponent implements OnInit {
     {label: 'Serivces', path: '/services'},
     {label: 'Policies', path: '/policies'},
   ]
-  activeLink = this.links[0].label;
+  activeLink;
 
-  constructor() { }
+  constructor(private router: Router) { 
+
+  }
 
   ngOnInit() {
+    this.router.events.subscribe((res) => {
+     let index: number = this.links.indexOf(this.links.find(tab => tab.path === this.router.url));
+     if(index >= 0){
+        this.activeLink = this.links[index]
+     }
+  });
   }
 
 }
