@@ -4,7 +4,7 @@ ul {
 
 mat-card{
     background-size: cover;
-    max-width: 800px;
+    max-width: 90%;
     color: #e6ac00;
     margin: auto;
 }
