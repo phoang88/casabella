@@ -4,7 +4,7 @@
 }
 
 .home-background {
-    background-image: url(../../assets/images/HomeBackground.jpg);
+    background-image: url(../../assets/images/home-banner.png);
     background-repeat:no-repeat;
     background-size:cover;
     background-position:top;
@@ -13,9 +13,11 @@
 }
 
 .about_us {
+    margin-top: 30px;
+}
+.about_us_img {
     height: 300px;
     margin-top: 30px;
-    overflow: hidden;
 }
 
 .divider {
@@ -54,4 +56,17 @@
 
 .info {
     width: 100%;
+}
+
+.quote {
+    font-family: 'Sofia';
+    margin-left: 200px;
+}
+
+.blue-text{
+    color: blue;
+}
+
+.image-link:hover {
+    cursor: pointer
 }

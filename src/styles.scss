@@ -5,6 +5,39 @@
 @import url('//fonts.googleapis.com/icon?family=Material+Icons');
 
 @include mat-core();
+$black: (
+    50 : #e6e6e6,
+    100 : #c1c0c0,
+    200 : #979797,
+    300 : #6d6d6d,
+    400 : #4e4d4d,
+    500 : #2f2e2e,
+    600 : #2a2929,
+    700 : #232323,
+    800 : #1d1d1d,
+    900 : #121212,
+    A100 : #ef6b6b,
+    A200 : #e93d3d,
+    A400 : #f30000,
+    A700 : #da0000,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #ffffff,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #ffffff,
+        A400 : #ffffff,
+        A700 : #ffffff,
+    )
+);
+
 $brown: (
     50 : #eeeae5,
     100 : #d5cabe,
@@ -71,7 +104,7 @@ $gold: (
     )
 );
 
-$primary: mat-palette($brown, 500);
+$primary: mat-palette($black, 500);
 $accent:  mat-palette($gold, 500);
 $warn:    mat-palette($mat-red, 500);
 
@@ -91,7 +124,7 @@ h1, h2, h3, h4 {
   font-weight: normal;
 }
 .background-primary {
-    background-color: #734d26
+    background-color: #2f2e2e
 }
 
 body {
