@@ -7,8 +7,6 @@
     background-image: url(../../assets/images/home-banner.png);
     background-repeat:no-repeat;
     background-size:cover;
-    background-position:top;
-    width: 100%; 
     height: 700px;
 }
 
@@ -66,7 +64,16 @@
 .blue-text{
     color: blue;
 }
+a {
+    color: #e6ac00;
+    text-decoration: none
+}
 
-.image-link:hover {
+.address:hover {
     cursor: pointer
+}
+
+.address-link {
+    text-decoration: underline;
+    color: blue
 }

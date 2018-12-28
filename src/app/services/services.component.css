@@ -11,3 +11,28 @@
     font-size: 20px
 }
 
+.service {
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 300px;
+    border-style: outset
+}
+
+.mani-pedi {
+    background-image: url(../../assets/images/mani-pedi.jpg); 
+
+}
+
+.waxing {
+    background-image: url(../../assets/images/waxing.jpg);
+}
+
+.nail-enhance {
+    background-image: url(../../assets/images/nail-enhance.jpg);
+
+}
+
+a {
+    color: #e6ac00;
+    text-decoration: none
+}
