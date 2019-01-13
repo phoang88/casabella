@@ -19,7 +19,7 @@
 }
 
 .mani-pedi {
-    background-image: url(../../assets/images/mani-pedi.jpg); 
+    background-image: url(../../assets/images/manicure-pedicure.jpg); 
 
 }
 
@@ -28,8 +28,13 @@
 }
 
 .nail-enhance {
-    background-image: url(../../assets/images/nail-enhance.jpg);
+    background-image: url(../../assets/images/artificial-nail.jpg);
 
+}
+
+.circle-image {
+    height: 300px;
+    width: 300px;
 }
 
 a {

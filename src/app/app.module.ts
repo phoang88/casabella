@@ -5,13 +5,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import {MatTabsModule, MatIconModule, MatCardModule} from '@angular/material';
+import {MatTabsModule, MatIconModule, MatCardModule, MatDialogModule} from '@angular/material';
 import { MenuComponent } from './menu/menu.component';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent, Popup } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { ServicesComponent } from './services/services.component';
 import { PoliciesComponent } from './policies/policies.component';
-
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +19,8 @@ import { PoliciesComponent } from './policies/policies.component';
     HomeComponent,
     FooterComponent,
     ServicesComponent,
-    PoliciesComponent
+    PoliciesComponent,
+    Popup
   ],
   imports: [
     BrowserModule,
@@ -27,8 +28,10 @@ import { PoliciesComponent } from './policies/policies.component';
     BrowserAnimationsModule,
     MatTabsModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatDialogModule
   ],
+  entryComponents: [Popup],
   providers: [],
   bootstrap: [AppComponent]
 })

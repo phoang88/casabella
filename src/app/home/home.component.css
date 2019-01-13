@@ -10,6 +10,14 @@
     height: 700px;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+    .home-background {
+        background-image: url(../../assets/images/home-banner-mobile.png);
+        height: 228px;
+        width: 420px;
+    }
+}
+
 .about_us {
     margin-top: 30px;
 }
@@ -32,7 +40,7 @@
 }
 
 .mani-pedi {
-    background-image: url(../../assets/images/mani-pedi.jpg); 
+    background-image: url(../../assets/images/manicure-pedicure.jpg); 
 
 }
 
@@ -41,7 +49,7 @@
 }
 
 .nail-enhance {
-    background-image: url(../../assets/images/nail-enhance.jpg);
+    background-image: url(../../assets/images/artificial-nail.jpg);
 
 }
 
