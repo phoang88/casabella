@@ -41,3 +41,12 @@ a {
     color: #e6ac00;
     text-decoration: none
 }
+
+.description {
+    margin-left: 200px;
+    color: black;
+}
+
+.submenu {
+    margin-left: 270px;
+}

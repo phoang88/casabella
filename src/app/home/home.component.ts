@@ -14,8 +14,8 @@ export class HomeComponent implements OnInit{
 
   ngOnInit() {
     setTimeout(() => this.popup.open(Popup, {
-      width: '800px',
-      height: '400px'
+      width: '850px',
+      height: '450px',
     }));
   }
 
@@ -27,6 +27,7 @@ export class HomeComponent implements OnInit{
 @Component({
   selector: 'popup',
   templateUrl: 'popup.html',
+  styleUrls: ['./home.component.css']
 })
 export class Popup {
 
