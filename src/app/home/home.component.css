@@ -7,7 +7,8 @@
     background-image: url(../../assets/images/home-banner.png);
     background-repeat:no-repeat;
     background-size:cover;
-    height: 700px;
+    height: 800px;
+    background-position: center bottom
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -67,6 +68,7 @@
 .quote {
     font-family: 'Sofia';
     margin-left: 200px;
+    color: black
 }
 
 .blue-text{
@@ -94,4 +96,15 @@ a {
     width: 800px;
     top: 0;
     position: relative
+}
+
+.about-us-text {
+    color: black;
+    margin: 0px 250px;
+    text-indent: 50px;
+}
+
+.welcome {
+    color: black;
+    margin-left: 200px
 }
