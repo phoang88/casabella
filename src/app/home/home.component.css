@@ -13,9 +13,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
     .home-background {
-        background-image: url(../../assets/images/home-banner-mobile.png);
-        height: 228px;
-        width: 420px;
+        height: 300px;
     }
 }
 
@@ -39,10 +37,19 @@
     height: 300px;
     border-style: outset
 }
-
+@media (min-width: 320px) and (max-width: 480px) {
+    .service {
+        margin: 30px 30px;
+    }
+}
 .mani-pedi {
     background-image: url(../../assets/images/manicure-pedicure.jpg); 
 
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .mani-pedi {
+        background-position: center bottom
+    }
 }
 
 .waxing {
@@ -97,6 +104,13 @@ a {
     top: 0;
     position: relative
 }
+@media (min-width: 320px) and (max-width: 480px) {
+    .popup {
+        background-image: url(../../assets/images/grand-opening-mobile.png);
+        height: 160px;
+        width: 270px;
+    }
+}
 
 .about-us-text {
     color: black;
@@ -104,7 +118,20 @@ a {
     text-indent: 50px;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+    .about-us-text {
+        margin: 0px 50px;
+        text-indent: 25px;
+    }
+}
+
 .welcome {
     color: black;
     margin-left: 200px
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .welcome {
+        margin-left: 30px
+    }
 }

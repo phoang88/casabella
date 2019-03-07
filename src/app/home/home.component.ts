@@ -15,7 +15,6 @@ export class HomeComponent implements OnInit{
   ngOnInit() {
     setTimeout(() => this.popup.open(Popup, {
       width: '850px',
-      height: '450px',
     }));
   }
 
